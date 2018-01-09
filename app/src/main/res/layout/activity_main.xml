@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+ xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ranjeet.radiobutton.MainActivity">
+
+      <RadioButton
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="list view"
+          android:id="@+id/btn1"
+          android:textSize="20sp"
+          android:layout_marginTop="10dp"
+          android:layout_marginLeft="20dp"
+          />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="grid view"
+            android:id="@+id/btn2"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"/>
+         <EditText
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="click any button"
+             android:textSize="20sp"
+             android:layout_marginTop="20sp"
+             android:gravity="center"/>
+          <RadioGroup
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/radioGroup">
+
+              <RadioButton
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="male"
+                  android:id="@+id/btn3"
+                  android:textSize="20sp"
+                  android:layout_marginTop="10dp"
+                  android:layout_marginLeft="20dp"
+                  />
+              <RadioButton
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="others"
+                  android:id="@+id/btn4"
+                  android:textSize="20sp"
+                  android:layout_marginTop="10dp"
+                  android:layout_marginLeft="20dp"/>
+
+          </RadioGroup>
+           <Button
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="select"
+               android:textStyle="bold"
+               android:textSize="20sp"
+               android:layout_marginTop="40dp"/>
+      </LinearLayout>
